@@ -18,3 +18,21 @@ function classSubjectGenerator(subject){
 }
 // test case
 console.log(classSubjectGenerator('Science')) //Your Subjects are: English, Mathematics Physics, Chemistry, Biology and Technical Drawing
+
+
+
+//NO 5 Solution
+
+function findNearestPowerOf2(number){
+    for(let i = 2; i <= number; i *= 2){
+        const half = number/2 
+            if(i == number){
+                return `the power of 2 equals to ${number} is ${i}`
+            }else if(i !== number && i > half){
+            return `The pwr of 2 closest to ${number} is ${i}`
+        }
+        }
+}
+// Test cases
+console.log(findNearestPowerOf2(512))//The power of 2 equal to 16 is 16
+console.log(findNearestPowerOf2(200))//The pwr of 2 closest to 200 is 128
