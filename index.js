@@ -21,7 +21,7 @@ console.log(classSubjectGenerator('Science')) //Your Subjects are: English, Math
 
 
 
-//NO 5 Solution
+//No 5 Solution
 
 function findNearestPowerOf2(number){
     for(let i = 2; i <= number; i *= 2){
